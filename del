@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class del {
+    public static void main(String[] args) {
+        Scanner cislo = new Scanner(System.in);
+        System.out.println("zadej cislo:");
+        int a = cislo.nextInt();
+        int b = 7;
+        int c = a % b;
+        if(c == 0){
+            System.out.println("cislo je delitelne sedmi");
+        }else{
+            System.out.println("cislo neni delitelne sedmi");
+        }
+    }
+}
+
